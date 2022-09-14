@@ -1,11 +1,12 @@
 a = int(input("enter first number:"))
 b = int(input("enter second number:"))
+c = int(input("enter third number:"))
 
-summation = a + b
-difference = a-b
-product = a*b
-division = a/b
-power = a**b
+summation = a + b + c
+difference = a-b-c
+product = a*b*c
+division = (a/b)/c
+power = (a**b)**c
 
 print("Sum is:",summation)
 print("Difference is:",difference)
